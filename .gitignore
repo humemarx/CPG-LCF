@@ -4,8 +4,6 @@ experiments/
 build/
 dist/
 **.egg-info
-*.jpg
-*.png
 *.npz
 *.npy
 core.*
