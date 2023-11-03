@@ -1,10 +1,10 @@
-# **Multiple Sensor LiDAR Segmentation (MSLiDARSeg)**
+# **Revisiting Multi-modal 3D Semantic Segmentation in Real-world Autonomous Driving (CPGNet-LCF)**
 ![teaser](./imgs/framework.png)
 
-Official code for MSLiDARSeg
+Official code for CPGNet-LCF
 
 ## NEWS
-- [2023-11-02] MSLiDARSeg achieves the **82.7 mIoU** on the nuScenes LiDAR Segmentation Benchmark with the inference latency of **63 ms**(PyTorch)  and **20 ms**(TensorRT) on a single NVIDIA V100 GPU.
+- [2023-11-02] CPGNet-LCF achieves the **82.7 mIoU** on the nuScenes LiDAR Segmentation Benchmark with the inference latency of **63 ms**(PyTorch)  and **20 ms**(TensorRT) on a single Tesla V100 GPU.
 <!-- ![teaser](./imgs/weak-calibration.png) -->
 
 #### 1 Dependency
@@ -89,3 +89,11 @@ bash train_kd.sh
 ```bash
 bash evaluate.sh
 ```
+
+## Acknowlegement
+We sincerely thank the authors of [CPGNet](https://github.com/GangZhang842/CPGNet), [SMVF](https://github.com/GangZhang842/SMVF) for open sourcing their methods.
+
+## Contact
+Any questions or suggestions are welcome!
+Chaoping Tu <humemarx@gmail.com>
+Gang Zhang <zhanggang11021136@gmail.com>
