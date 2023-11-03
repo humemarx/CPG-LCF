@@ -94,6 +94,6 @@ bash evaluate.sh
 We sincerely thank the authors of [CPGNet](https://github.com/GangZhang842/CPGNet), [SMVF](https://github.com/GangZhang842/SMVF) for open sourcing their methods.
 
 ## Contact
-Any questions or suggestions are welcome!
-Chaoping Tu <humemarx@gmail.com>
-Gang Zhang <zhanggang11021136@gmail.com>
+Any questions or suggestions are welcome!      
+Chaoping Tu <humemarx@gmail.com>     
+Gang Zhang <zhanggang11021136@gmail.com>       
